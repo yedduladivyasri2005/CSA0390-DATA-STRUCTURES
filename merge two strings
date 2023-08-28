@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+	char str1[50],str2[50];
+	printf("enter first string");
+	gets(str1);
+	printf("enter second string");
+	gets(str2);
+	strcat(str1,str2);
+	printf("string after concatentation is \n%s",str1,str2);
+	getch();
+	return 0;
+}
